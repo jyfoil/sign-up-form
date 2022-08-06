@@ -1,8 +1,52 @@
-.joystick {
-  height: 150px;
+:root {
+  --header-text-color: #fff;
+}
+
+body,
+html {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+img[src*="joy"] {
+  width: min(100px, 100%);
+  margin-bottom: -2rem;
+  filter: brightness(0) invert(1);
 }
 
 .hero-image {
-  height: 300px;
-  width: 300px;
+  background-image: url(./images/thomas-despeyroux-i_qs6f6y8ag-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 50%;
+}
+
+.hero-text {
+  position: absolute;
+  font-size: 2.2rem;
+  top: 40%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.716);
+  width: 100%;
+  color: var(--header-text-color);
+}
+
+.credits {
+  position: absolute;
+  text-align: center;
+  bottom: 0%;
+  color: var(--header-text-color);
+  width: 100%;
+}
+
+a {
+  color: inherit;
 }
