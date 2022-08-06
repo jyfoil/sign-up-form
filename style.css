@@ -1,5 +1,6 @@
 :root {
   --header-text-color: #fff;
+  --bg-color-top-bot: #f9f5eb;
 }
 
 body,
@@ -28,7 +29,6 @@ img[src*="joy"] {
 
 .hero-text {
   position: absolute;
-  font-size: 2.2rem;
   top: 40%;
   display: flex;
   flex-direction: column-reverse;
@@ -49,4 +49,20 @@ img[src*="joy"] {
 
 a {
   color: inherit;
+}
+
+.bg-color-top {
+  background-color: var(--bg-color-top-bot);
+}
+
+section.top {
+  font-size: 2rem;
+  padding-top: 6rem;
+  padding-left: 3rem;
+  padding-bottom: 2.5rem;
+  padding-right: 6rem;
+}
+
+main {
+  width: 50%;
 }
