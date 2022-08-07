@@ -25,7 +25,7 @@ body {
 }
 
 main {
-  width: 50%;
+  width: 60%;
 }
 
 img[src*="joy"] {
@@ -44,7 +44,7 @@ label {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: 50%;
+  width: 40%;
 }
 
 .hero-text {
@@ -75,10 +75,16 @@ a {
 section.top {
   font-size: 2rem;
   padding: 6rem 6rem 2.5rem var(--section-padding-left);
+  height: 37.5%;
+}
+
+.container > p {
+  margin-bottom: 2rem;
 }
 
 section.middle {
   padding: 1.5rem 6rem 3rem var(--section-padding-left);
+  height: 25%;
 }
 
 .form-text {
@@ -118,6 +124,7 @@ input:focus {
 
 section.bottom {
   padding: 1.5rem var(--section-padding-left);
+  height: 37.5%;
 }
 
 button[type="submit"] {
@@ -151,8 +158,4 @@ a[href=""] {
 
 .bg-color-bottom {
   background-color: var(--bg-color-top-bot);
-}
-
-.container > p {
-  margin-bottom: 2rem;
 }
