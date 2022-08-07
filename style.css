@@ -1,21 +1,38 @@
 :root {
   --header-text-color: #fff;
   --bg-color-top-bot: #f9f5eb;
+  --bg-color-middle: #e8f9fd;
+  --section-padding-left: 3rem;
 }
 
-body,
-html {
-  display: flex;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
   height: 100%;
+}
+
+body {
+  display: flex;
   width: 100%;
+  min-height: 100%;
+}
+
+main {
+  width: 50%;
 }
 
 img[src*="joy"] {
   width: min(100px, 100%);
   margin-bottom: -2rem;
   filter: brightness(0) invert(1);
+}
+
+label {
+  display: block;
 }
 
 .hero-image {
@@ -34,6 +51,7 @@ img[src*="joy"] {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+  gap: 40px;
   background: rgba(0, 0, 0, 0.716);
   width: 100%;
   color: var(--header-text-color);
@@ -51,18 +69,45 @@ a {
   color: inherit;
 }
 
+section.top {
+  font-size: 2rem;
+  padding: 6rem 6rem 2.5rem var(--section-padding-left);
+}
+
+section.middle {
+  padding: 2rem 6rem 3rem var(--section-padding-left);
+}
+
+.form-text {
+  margin-bottom: 10px;
+}
+
+.form-container {
+  display: flex;
+  width: 25rem;
+  justify-content: space-between;
+}
+
+.form-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .bg-color-top {
   background-color: var(--bg-color-top-bot);
 }
 
-section.top {
-  font-size: 2rem;
-  padding-top: 6rem;
-  padding-left: 3rem;
-  padding-bottom: 2.5rem;
-  padding-right: 6rem;
+.bg-color-middle {
+  background-color: var(--bg-color-middle);
 }
 
-main {
-  width: 50%;
+.container > p {
+  margin-bottom: 2rem;
 }
