@@ -19,6 +19,7 @@ body {
   display: flex;
   width: 100%;
   min-height: 100%;
+  font-family: "Signika Negative", sans-serif;
 }
 
 main {
