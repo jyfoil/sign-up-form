@@ -4,6 +4,7 @@
   --bg-color-middle: #e8f9fd;
   --section-padding-left: 3rem;
   --input-border-color: #e5e7eb;
+  --button-color: #0096ff;
 }
 
 * {
@@ -115,12 +116,41 @@ input:focus {
   border: 1px solid rgb(43, 0, 255);
 }
 
+section.bottom {
+  padding: 1.5rem var(--section-padding-left);
+}
+
+button[type="submit"] {
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.7rem 3rem;
+}
+
+button[type="submit"]:active {
+  transform: translateY(1px);
+}
+
+.bottom p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+a[href=""] {
+  color: var(--button-color);
+}
+
 .bg-color-top {
   background-color: var(--bg-color-top-bot);
 }
 
 .bg-color-middle {
   background-color: var(--bg-color-middle);
+}
+
+.bg-color-bottom {
+  background-color: var(--bg-color-top-bot);
 }
 
 .container > p {
