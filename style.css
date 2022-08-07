@@ -91,6 +91,7 @@ section.top {
 section.middle {
   padding: 1.5rem 6rem 3rem var(--section-padding-left);
   height: 25%;
+  min-height: 260px;
 }
 
 .form-text {
