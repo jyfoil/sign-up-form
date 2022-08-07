@@ -103,7 +103,7 @@ section.middle {
 }
 
 input {
-  border: var(--input-border-color);
+  border: 1px solid var(--input-border-color);
   padding: 0.2rem;
   width: 16rem;
   height: 1.4rem;
