@@ -76,6 +76,12 @@ section.top {
   font-size: 2rem;
   padding: 6rem 6rem 2.5rem var(--section-padding-left);
   height: 37.5%;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  bottom: 1.5rem;
 }
 
 .container > p {
