@@ -138,11 +138,11 @@ input:focus {
 }
 
 input[type="password"]:invalid {
-  border: solid red;
+  border: 1px solid red;
 }
 
 input[type="password"]:valid {
-  border: solid green;
+  border: 1px solid green;
 }
 
 section.bottom {
