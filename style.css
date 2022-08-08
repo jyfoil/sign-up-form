@@ -76,7 +76,7 @@ a {
 section.top {
   font-size: 2rem;
   padding: 6rem 6rem 2.5rem var(--section-padding-left);
-  height: 37.5%;
+  height: 37.5vh;
   position: relative;
 }
 
@@ -92,7 +92,7 @@ section.top {
 
 section.middle {
   padding: 1.5rem 6rem 3rem var(--section-padding-left);
-  height: 25%;
+  height: 25vh;
   min-height: 260px;
   position: relative;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
@@ -147,7 +147,7 @@ input[type="password"]:valid {
 
 section.bottom {
   padding: 1.5rem var(--section-padding-left);
-  height: 37.5%;
+  height: 37.5vh;
 }
 
 input[type="submit"] {
