@@ -101,6 +101,7 @@ section.middle {
 
 .form-container {
   display: flex;
+  gap: 24px;
   flex: 1;
 }
 
@@ -110,7 +111,6 @@ section.middle {
   flex-direction: column;
   gap: 16px;
   width: 100%;
-  margin-right: 5px;
 }
 
 input:not(#submit-btn) {
