@@ -27,6 +27,8 @@ I had more trouble then I initially thought with this project. I started it thin
 
 Going from here I need to properly think about what is going under the hood with my CSS. Often I just speed through not really thinking about what my code is doing even if it works. I need to start thinking about "why" it works.
 
+In hindsight, I could have made the three sections on the right of the image into flex items as well by displaying flex on the main tag. This would have solved the issue that I struggled on where text would overflow into the image for the mobile page. My way of solving it involved changing the font size when the viewport was smaller which is not the responsive way that I would have liked.
+
 ## Credits
 
 [Arcade stick photo](https://unsplash.com/photos/i_qs6f6y8ag) by [Thomas Despeyroux
